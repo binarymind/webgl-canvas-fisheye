@@ -1,0 +1,24 @@
+<style>
+    #input-area {position:fixed;top:0;left:0;width:100%;padding:3px;box-sizing:border-box;}
+    #input-area input,#input-area button {
+        display: inline-block;
+        vertical-align: baseline;
+        height: 30px;
+        padding: 0 10px;
+        border: none;
+        background: #555;opacity:0.3;
+        color: #AAA;
+    }
+    #input-area button {opacity:0;}
+    #input-area input:hover,#input-area input:focus {
+        background:white;color:black;opacity:1;
+    }
+    #input-area button:hover, #input-area button:focus, #input-area input:hover + button, #input-area input:focus + button {
+        opacity:1;background:black;
+    }
+
+</style>
+<form id="input-area">
+    <input type="text" placeholder="change image (url)" id="file-url">
+    <button type="submit">OK</button>
+</form>
