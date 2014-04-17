@@ -1,5 +1,4 @@
-# WEBGL/CANVAS fisheye
-
+# WEBGL/CANVAS fisheye [preview here](https://binarymind.github.io/webgl-canvas-fisheye/)
 ## If you just want to launch the fisheye
 clone the repo and copy paste the dist folder wherever you want. If you want to change the files of the texture it has to be in a wamp/Lamp server (local or not)
 
